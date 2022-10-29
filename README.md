@@ -2,7 +2,7 @@
 
 **Cryptway** is a CryptoCurrency Exchange and Swapping Portal with a builtin Knowledgebase for Quick Decisions .
 
-Read Documentation :: <a href="https://cryptway.github.io/">Read</a<
+Read Documentation :: <a href="https://cryptway.github.io/">Read</a>
 ## Features 
 - Connect to any wallet
 - Exchange from one wallet to another
