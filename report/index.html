@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptWay Report</title>
+    <link href="dist/output.css" rel="stylesheet">
+
+</head>
+<body>
+<header class="sticky top-0 z-50 flex items-center px-2  py-2 border-b-1 shadow-lg bg-white/90 backdrop-blur-md border-slate-300/20">
+    <div class="flex items-center flex-grow basis-0">
+          <a href="index.html" class="text-lg font-bold  text-slate-900">
+            Cryptway Report
+          </a>
+    </div>
+    <div class=" justify-end">
+          <a href="https://cryptway.in/" class="px-4 py-2 text-sm font-semibold rounded bg-slate-900 text-slate-50 transition ease-in-out delay-75 hover:scale-105 duration-200">
+           Cryptway
+          </a>
+    </div>
+</header>
+
+
+<section CLASS="relative flex justify-center mx-auto max-w-8xl">
+
+          <input type="checkbox" name="nav" id="nav" class="hidden peer" />
+          <label for="nav" class="fixed bottom-0 left-0 z-50 flex items-center justify-center w-12 h-12 mb-4 ml-4 bg-white border rounded-full shadow-lg cursor-pointer text-slate-600 border-slate-300 lg:hidden transition duration-200 ease-in-out active:scale-95">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg>
+          </label>
+     <div class="fixed bg-white top-[2.5rem] h-screen shadow-xl px-4 left-0 hidden peer-checked:block lg:relative lg:top-0 lg:h-auto lg:px-0 lg:block lg:flex-none lg:shadow-none">
+       
+                <nav class="sticky top-[2.5rem] w-64 pr-8 text-base lg:text-sm xl:w-72 xl:pr-16 ">
+                  
+                    <ul class="px-10 py-10" style="font-size: 16px;">
+                        <li>
+                            <a href="index.html" class="mr-4 hover:underline md:mr-6 ">Introduction</a>
+                        </li>
+                        
+                        <li>
+                            <a href="chapter2.html" class="mr-4 hover:underline md:mr-6 ">Literature Survey</a>
+                        </li>
+                        <li>
+                            <a href="chapter3.html" class="hover:underline">Proposed system</a>
+                        </li>
+                         <li>
+                            <a href="references.html" class="hover:underline">References</a>
+                        </li>
+                    </ul>
+                    
+                </nav>
+              </div>
+          
+     <div class="flex-auto max-w-2xl min-w-0 px-4 py-10 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16 bg-slate-200	">
+                 
+        <article>
+
+
+ 
+                <!--Title-->
+                <div class="font-sans">
+                 
+                         <h1 class="font-sans break-normal text-gray-900 text-xl">Introduction	 
+                            </h1>
+                         <hr class="border-b border-gray-400">
+                </div>
+       
+       
+                <!--Post Content-->
+                <p class="py-6"><b> 1. 1 Introduction:
+                </b></p>
+                 <p>   For most of history, humans have used commodity currency. Fiat currency is a more recent development, first used around 1000 years ago, and today it is the dominant form of money. But this may not be the end of monetary history. Cryptocurrency is neither commodity money nor fiat money –it is a new, experimental kind of money.The cryptocurrency experiment may or may not ultimately succeed, but it offers a new mix of technical and monetary characteristics that raise different economic questions than other kinds of currency.
+                     </p>
+                
+                
+                 <p class="py-6"><b> 1.1.1: Cryptocurrency </b></p>
+                 <p>    Cryptocurrency is the name given to a system that uses cryptography to allow the secure transfer and exchange of digital tokens in a distributed and decentralised  manner. These tokens can be traded at market rates for fiat currencies. The first cryptocurrency was Bitcoin, which began trading in January 2009. Since then, many other cryptocurrencies have been created employing the same innovations that Bitcoin introduced, but changing some of the specific parameters of their governing algorithms. The two major innovations that Bitcoin introduced, and which made cryptocurrencies possible, were solutions to two long-standing problems in computer science: the double-spending problem and the Byzantine Generals Problem.
+                    </p>
+                
+                
+                
+                
+                
+                 <p class="py-6"><b> 1.1.2: Double spending 
+                 </b></p>
+                 <p>    One of the primary concerns of any cryptocurrency developer is the issue of double-spending. This refers to the incidence of an individual spending a balance of that cryptocurrency more than once, effectively creating a disparity between the spending record and the amount of that cryptocurrency available, as well as the way that it is distributed.
+                    </p>
+                
+                <p> The issue of double-spending is a problem that cash does not have; if you pay for a sandwich with a $10 bill, turning that bill over to the maker of the sandwich, you cannot turn around and spend that same $10 elsewhere. A transaction using a digital currency like bitcoin, however, occurs entirely digitally. This means that it is possible to copy the transaction details and rebroadcast it such that the same BTC could be spent multiple times by a single owner. Below, we will examine how cryptocurrency developers have insured that double spending cannot happen.
+                </p>
+                
+                <p> Imagine that you have 1 BTC and you attempt to spend it twice in two separate transactions. You could attempt to do this by sending the same BTC to two separate bitcoin wallet addresses. Both of these transactions will then go into the pool of unconfirmed transactions. The first transaction would be approved via the confirmation mechanism and then verified into the subsequent block. However, the second transaction would be recognized as invalid by the confirmation process and would not be verified. If both transactions are pulled from the pool for confirmation simultaneously, the transaction with the highest number of confirmations will be included in the blockchain, while the other one will be discarded.
+                </p>
+                
+                
+                <p> While this effectively deals with the issue of double spending, it is not without its issues. For example, the intended recipient of the second (failed) transaction would not have part in the transaction itself failing, and yet that person would not receive the bitcoin they had anticipated. Many merchants wait for at least 6 confirmations of a transaction (meaning that six subsequent blocks of transactions were added to the blockchain after the transaction in question). At this point, the merchant can safely assume that the transaction is valid.
+                </p>
+                 
+                
+                 <p class="py-6"><b> 1.1.3 Byzantine Generals Problem: 
+                </b></p>
+                 <p>    The difficult task of reaching consensus among distributed parties who do not trust each other is another longstanding problem in the computer science literature known as the Byzantine Generals Problem, which Bitcoin also elegantly solved. The Byzantine Generals Problem posits that a number of generals each have their armies camped outside a city that they have surrounded. The generals know that their numbers are large enough that if half their combined force attacks at the same time they will take the city, but if they do not attack at the same time they will be spread too thinly and will be defeated. They can only communicate via messenger, and they have no way of verifying the authenticity of the messages being relayed. They also suspect that some of the generals in their ranks are traitors who will send fake messages along to their peers. How can this large group come to a consensus on the time of attack without employing trust and without a central authority, especially when there will likely be attempts to confuse them with fake messages?
+                 
+                    </p>
+                
+                
+                 <p class="py-6"><b> 1.1.4 Blockchain: 
+                </b></p>
+                 <p>    In essence, this is the same problem faced by Bitcoin ‘miners’, the specialised nodes that verify new transactions and add them to the distributed ledger. Bitcoin’s solution is to require additions to the ledger to be accompanied by the solution to a mathematical problem that is very difficult to solve but simple to verify. (This is much like calculating prime factors; costly to do, but easy to check.) New transactions are broadcast in a peer-to-peer fashion across the network by parties to those transactions. Miners look at those transactions and confirm by checking their copy of the ledger (the block chain) that they are not double-spends. If they are legitimate transactions, miners add them to a queue of new transactions that they would like to add as a new page in the ledger (a new block in the block chain). While they are doing this, they are simultaneously trying to solve a mathematical problem in which all previous blocks in the block chain are an input. The miner that successfully solves the problem broadcasts his solution to the problem along with the new block to be added to the block chain. The other miners can easily verify whether the solution to the problem is correct, and if it is they add that new block to their copy of the block chain. The process begins anew with the new block chain as an input of the problem to be solved for the next block.</p><p>
+                The mathematical problem in question takes an average of 10 minutes to solve. This is key because the important thing is not the solution itself, but that the solution proves that the miner has expended 10 minutes of work. On average, a new block is added to the block chain every 10 minutes because the problem that miners must solve takes on average 10 minutes to solve. However, if more miners join the network, or if computing power improves, the average time between blocks will decrease. To maintain the rate at which blocks are added to six per hour, the difficulty of the problem is adjusted every 2016 blocks (every two weeks). Again,
+                the key here is to ensure that each block takes about 10 minutes to discover.
+                The Decentralised Crypto platform known as Cryptway has been a product of the ideas regarding existing platforms and the improvement we can make on said platforms. This all-in-one platform is meant to be the singular destination for all things crypto, people face many problems such as being uneducated about crypto, falling for scams, not knowing how to transact and the benefits of this emerging technology. This platform is meant to solve all the stated problems and even more shall be added in due course.
+                    </p>
+                
+                
+                 <p class="py-6"><b> 1.2 Motivation:
+                </b></p>
+                 <p>   This platform is meant to take advantage of a rising cryptocurrency field and provide the public with tools with which they can educate themselves and make fulfilling decision regarding cryptocurrency. Since there is a lack of a central exchange system built into the infrastructure of cryptocurrency, exchanges with proper technologies and infrastructure for swapping is needed, leading to the development of exchange platforms
+                     </p>
+                
+                 <p class="py-6"><b> 1.3 Problem statement & Objectives:
+                 </b></p>
+                 <p>    Creation of an all-around crypto application capable of securely and efficiently handling transactions and creating a cryptocurrency education system.</p>
+                <p>
+                
+                1) Fast P2P (Peer 2 Peer) transfers<br>
+                2) Fast and secure currency transfers<br>
+                3) Documentation about various crypto tokens and trends in crypto fields<br>
+                4) Education about various schemes and fields in cryptocurrency<br>
+                
+                
+                
+                
+                
+                
+                    </p>
+                
+                
+                 <p class="py-6"><b> 1.4 Organisation of report:
+                 </b></p>
+                 <p>    Chapter 2 contains literature survey about the existing systems and their drawbacks In the superseding Chapter 3, describes the proposed system. The architecture of the proposed system and the process design is explained in Chapter 4. 
+                
+                    </p> 
+                
+        
+                <!--/ Post Content-->
+                
+            
+
+
+
+
+
+        </article>
+
+  
+
+
+          
+              </div>
+
+
+      </section>
+
+
+
+
+      
+<footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="https://cryptway.in/" class="flex items-center mb-4 sm:mb-0">
+            <img src="https://cryptway.in/static/media/cryptocurrency.511fdd8c.png" class="mr-3 h-8" alt="Logo">
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CryptWay</span>
+        </a>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+    <span class="block text-sm text-gray-500 sm:text-center"><a class=" text-black sm:text-center " href="https://cryptway.in/">cryptway</a> Some Rights Reserved.
+    </span>
+</footer>
+
+     
+
+    
+    
+</body>
+</html>
