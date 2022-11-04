@@ -1,5 +1,8 @@
 # Cryptway
 
+open report 
+- https://cryptway.github.io/report/
+
 **Cryptway** is a CryptoCurrency Exchange and Swapping Portal with a builtin Knowledgebase for Quick Decisions .
 
 Read Documentation :: <a href="https://cryptway.github.io/">Read</a>
